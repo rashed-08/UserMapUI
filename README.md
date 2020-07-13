@@ -1,27 +1,28 @@
-# Chartapp
+# AngularTemplate
+The AngularTemplate is aimed to reduce time while setup angular project.\
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+# How it works? 
+AngularTemplate will help you to headache creating angular project and start from scratch. The AngularTemplate uses default bootstrap 4.3. In case if you are interested update bootstrap version or want to use Material UI then simply remove bootstrap 4.3 and then take nessesary step to implement them.
 
-## Development server
+# Installation 
+Goto desired file system and open terminal to create folder.
+mkdir ProjectName
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Goto the folder
+cd ProjectName
 
-## Code scaffolding
+Clone the project
+git clone https://github.com/rashed-08/AngularTemplate
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To download all the dependencies
+npm install (for debian user, if you get error then run sudo npm install)
 
-## Build
+# Run Project
+Goto application folder
+cd ~/AngularTemplate
+Now run this command,
+ng serve -o (Use '-o' flag for open up new tab in browser)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+N:B:
+This is my own setup approach. May you can choose other project structure.
+If you have any query, contact via email, rashedulislam139@gmail.com
